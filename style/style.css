@@ -1,0 +1,15 @@
+header {
+    background-color: #8ee9ca;
+    border-radius: 46px;
+    padding: 30px;
+    margin: 30px;
+}
+.blok-main {
+    box-align: center;
+}
+.blok-pravilo {
+    width: 600px;
+    background-color: #e9fdf0;
+    border-radius: 46px;
+    padding: 30px;
+} 
