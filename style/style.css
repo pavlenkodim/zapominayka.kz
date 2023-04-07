@@ -1,15 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #8ee9ca;
     border-radius: 46px;
     padding: 30px;
-    margin: 30px;
+    margin-bottom: 30px;
 }
-.blok-main {
-    box-align: center;
+.menu-main {
+    display: flex;
+}
+.menu-main-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+.log-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.log-in {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.log-up {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+
 }
 .blok-pravilo {
     width: 600px;
     background-color: #e9fdf0;
     border-radius: 46px;
     padding: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
 } 
+.timer{
+    text-align: right;
+}
+.blok-pravilo-footer {
+    display: flex;
+    justify-content: space-between;
+}
